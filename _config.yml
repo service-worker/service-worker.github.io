@@ -1,1 +1,25 @@
 theme: jekyll-theme-cayman
+title: Service Worker Playground
+description: Service Worker 的功能解释，在线示例，以及相应源码
+google_analytics: UA-97870785-1
+github:
+  repository_url: https://github.com/service-worker/service-worker.github.io
+  repository_name: service-worker.org
+  owner_name: harttle 
+  owner_url: http://harttle.com
+demos:
+  - name: Simple Fetch
+    description: 一个简单的 Service Worker，可以修改页面中图片请求的 URL。
+    url: simple-fetch
+  - name: Service Worker Update
+    description: Service Worker 脚本本身的更新取决于 HTTP 缓存策略。
+    url: sw-update
+  - name: Fetch with Credentials
+    description: 在 window 或 Service Worker 上下文中，如何让 Fetch 请求携带 Cookie。
+    url: fetch-with-credentials
+  - name: Install Banner
+    description: 拥有 Service Worker 以及合适的 Manifest，就可以触发 Chrome 的 Install Banner。
+    url: install-banner
+  - name: Manifest
+    description: 一个有 Manifest 链接的页面，可以手动添加到主屏并显示漂亮的图标。
+    url: manifest
